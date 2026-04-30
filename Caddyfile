@@ -1,0 +1,8 @@
+node1.vpnxtrem.com {
+
+    reverse_proxy guacamole:8080
+
+    encode gzip
+
+    tls your@email.com
+}
